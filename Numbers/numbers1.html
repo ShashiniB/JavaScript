@@ -1,0 +1,40 @@
+<html>
+<body>
+<p>Integer are accurate up to 15 digits</p>
+<p id ="demo1"></p>
+<p id ="demo2"></p>
+<p id ="demo3"></p>
+<p id ="demo4"></p>
+<p id ="demo5"></p>
+<p id ="demo6"></p>
+<p id ="demo7"></p>
+
+<script>
+var x=999999999999999;
+var y=9999999999999999;
+document.getElementById("demo1").innerHTML=x+"<br>"+y;
+
+var a=0.5+0.4;
+document.getElementById("demo2").innerHTML=a;
+
+var b=(0.3*10+0.5*10)/10;
+document.getElementById("demo3").innerHTML=b;
+
+var c=10;
+var d=40;
+var e=c+d;
+document.getElementById("demo4").innerHTML=e;
+
+var f="10";
+var g="40";
+var h=f+g;
+document.getElementById("demo5").innerHTML=h;
+
+document.getElementById("demo6").innerHTML=10/"apple";
+
+var j=100/"apple";
+document.getElementById("demo7").innerHTML=isNaN(j);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+<body>
+
+<h2>Infinity</h2>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+
+var x=2;
+var txt="";
+
+while(x != Infinity){
+x=x*x;
+txt=txt+x +"<br>";
+}
+
+document.getElementById("demo1").innerHTML=txt;
+
+var a=3/0;
+var b=-3/0;
+document.getElementById("demo2").innerHTML=a+"<br>"+b;
+</script>
+</html>
+</body>
