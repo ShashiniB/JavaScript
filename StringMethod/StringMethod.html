@@ -1,0 +1,43 @@
+<html>
+<body>
+
+<p id="demo1"></p>
+<script>
+var x="My name is shashini bhagya shashini";
+var y=x.lastIndexOf("shashini");
+document.getElementById("demo1").innerHTML=y;
+</script>
+
+<p id="demo2"></p>
+<h4 id="demo3"></h4>
+<h3 id="demo4"></h3>
+<h1 id="demo5"></h1>
+<h2 id="demo6"></h2>
+<h3 id="demo7"></h3>
+<h5 id="demo8"></h5>
+<script>
+var x="Apple, Banana, Papaya";
+var y=x.slice(7,13);
+document.getElementById("demo2").innerHTML=y;
+
+var z=x.slice(-14,-8);
+document.getElementById("demo3").innerHTML=z;
+
+var a=x.slice(7);
+document.getElementById("demo4").innerHTML=a;
+
+var b=x.substring(7,13);
+document.getElementById("demo5").innerHTML=b;
+
+var c=x.substr(7,6);
+document.getElementById("demo6").innerHTML=c;
+
+var d=x.substr(7);
+document.getElementById("demo7").innerHTML=d;
+
+var e=x.substr(-6);
+document.getElementById("demo8").innerHTML=e;
+
+</script>
+</body>
+</html>

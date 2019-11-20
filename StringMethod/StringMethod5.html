@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The charAt() method</p>
+
+<h3 id="demo1"></h3>
+<h3 id="demo2"></h3>
+<script>
+var x="Good Morning";
+document.getElementById("demo1").innerHTML=x.charAt(5);
+document.getElementById("demo2").innerHTML=x.charCodeAt(0);
+</script>
+
+<button onclick="myFunction()">Clike me</button>
+<p id="demo3"></p>
+<h1 id="demo4"></h1>
+
+<script>
+function myFunction(){
+var x="a,b,c,d,e,";
+var y=x.split(",");
+document.getElementById("demo3").innerHTML=y[0];
+
+var a="Good";
+var b=a.split("");
+var t="";
+var i;
+for(i=0; i<b.length; i++){
+t+=b[i]+"<br>";
+}
+document.getElementById("demo4").innerHTML=t;
+}
+</script>
+</body>
+</html>
