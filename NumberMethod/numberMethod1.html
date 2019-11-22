@@ -1,0 +1,48 @@
+<html>
+<body>
+ 
+ <h3>The toString method </h3>
+ <p id="demo1"></p>
+ 
+ <script>
+ var x=112;
+ document.getElementById("demo1").innerHTML=x.toString()+"<br>"+(112).toString() +"<br>"+(100+12).toString();
+ </script>
+ 
+ <h3>The toExponential() method</h3>
+ <p id="demo2"></p>
+ <script>
+ var y=6.756;
+ document.getElementById("demo2").innerHTML=y.toExponential(2)+"<br>"+
+ y.toExponential(4)+"<br>"+ y.toExponential(6);
+ </script>
+ 
+  <h3>The toFixed() method</h3>
+ <p id="demo3"></p>
+ <script>
+ var z=6.756;
+ document.getElementById("demo3").innerHTML=z.toFixed(0)+"<br>"+z.toFixed(2)+"<br>"+
+z.toFixed(4)+"<br>"+ z.toFixed(6);
+ </script>
+ 
+  <h3>The toPrecision() method</h3>
+ <p id="demo4"></p>
+ <script>
+ var w=6.756;
+ document.getElementById("demo4").innerHTML=w.toPrecision()+"<br>"+
+ w.toPrecision(2)+"<br>"+ w.toPrecision(4)+"<br>"+ w.toPrecision(6);
+ </script>
+ 
+   <h3>The valueOf() method</h3>
+ <p id="demo5"></p>
+ <script>
+ var a=112;
+ document.getElementById("demo5").innerHTML=a.valueOf()+"<br>"+
+ (112).valueOf()+"<br>"+ (100+12).valueOf();
+ </script>
+ 
+
+	
+ </body>
+ </html>
+ 
